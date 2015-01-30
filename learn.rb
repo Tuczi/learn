@@ -42,7 +42,7 @@ def print_answers(question)
   i = 0
   n = question["correct"].length + question["wrong"].length
   tmp = Range.new(0, n -1).to_a.shuffle
-  answers = Array.new(4)
+  answers = Array.new(n-1)
     
   result = []
   question["correct"].each do |a|
