@@ -9,10 +9,10 @@ def main
   data = YAML.load_file("data.yml")
   while true
     question = next_question(data)
-    #puts question["text"].colorize(:light_blue)
+    puts question["text"].colorize(:light_blue)
     
     correct_answers =print_answers(question)
-    puts correct_answers.to_s.colorize(:light_red) #debug
+    #puts correct_answers.to_s.colorize(:light_red) #debug
     input =  gets.chomp
     system "clear"
     if correct?( correct_answers, input)
