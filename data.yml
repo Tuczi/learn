@@ -204,8 +204,8 @@
     wrong: []
 - question:
     text: '52 Relacja zaufania w uwierzytelnianiu w srodowisku sieciowym'
-    correct: ['jest wykorzystywana zarowno przez systemy Unix, jak i MS Windows','moze byc jednostronna lub dwustronna']
-    wrong: ['nie jest przechodnia','jest realizacja koncepcji SSO']
+    correct: ['jest wykorzystywana zarowno przez systemy Unix, jak i MS Windows','moze byc jednostronna lub dwustronna','nie jest przechodnia']
+    wrong: ['jest realizacja koncepcji SSO']
 - question:
     text: '53 Wskaz prawidlowe stwierdzenia dotyczace metod uwierzytelniania systemow operacyjnych MS Windows w srodowisku sieciowym: '
     correct: ['Kerberos jest bezpieczniejszy niz LM i NTLM ','NTLM jest bezpieczniejszy niz LM ']
@@ -696,8 +696,8 @@
     wrong: []
 - question:
     text: '175 Mozliwosci uwierzytelniania sie przy uzyciu SSH to '
-    correct: ['para login, haslo naszego konta na zdalnym hoscie ']
-    wrong: ['certyfikaty SSL X.509','samo haslo naszego konta na zdalnym hoscie ','klucz publiczny, uzywany przy szyfrowaniu symetrycznym ','para klucz publiczny i klucz prywatny ']
+    correct: ['para login, haslo naszego konta na zdalnym hoscie ','para klucz publiczny i klucz prywatny ']
+    wrong: ['certyfikaty SSL X.509','samo haslo naszego konta na zdalnym hoscie ','klucz publiczny, uzywany przy szyfrowaniu symetrycznym ']
 - question:
     text: '176 Mozliwosci uwierzytelniania sie przy uzyciu SSH to: '
     correct: ['trojka login, klucz publiczny i klucz prywatny ','para login, haslo naszego konta na zdalnym hoscie']
