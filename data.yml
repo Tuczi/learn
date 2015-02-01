@@ -532,8 +532,8 @@
     wrong: ['pozwala na szyfrowania zalacznikow wiadomosci ','pozwala na rozsylanie grupowych wiadomosci w trybie multicast ','pozwala na przeszukiwanie bazy uzytkownikow na serwerze smtp w celu okreslenia adresata wiadomosci ']
 - question:
     text: '134 Jak zachowa sie system kontroli ACL standardu POSIX w przypadku uzytkownika U nalezacego do grupy G jesli ani U ani G nie maja jawnie przydzielonego prawa r wobec obiektu p, ale kategoria "wszyscy uzytkownicy" (others) takie uprawnienie posiada: '
-    correct: ['prawo r zostanie efektywnie przyznane bezwarunkowo ']
-    wrong: ['prawo r nie zostanie efektywnie przyznane, ale U odziedziczy je w glab, jesli p jest katalogiem ','prawo r nie zostanie efektywnie przyznane ','prawo r zostanie efektywnie przyznane, o ile U jest wlascicielem p ']
+    correct: ['prawo r zostanie efektywnie przyznane bezwarunkowo ','prawo r zostanie efektywnie przyznane, o ile U jest wlascicielem p ']
+    wrong: ['prawo r nie zostanie efektywnie przyznane, ale U odziedziczy je w glab, jesli p jest katalogiem ','prawo r nie zostanie efektywnie przyznane ']
 - question:
     text: '135 Jak zachowa sie system kontroli ACL standardu POSIX w przypadku uzytkownika U nalezacego do grupy G i wpisanego na liscie ACL obiektu p, jesli ani U ani G nie maja jawnie przydzielonego prawa r, ale kategoria „wszyscy uzytkownicy” (others) takie uprawnienie do obiektu posiada:'
     correct: ['prawo r do obiektu p nie zostanie efektywnie przyznane']
