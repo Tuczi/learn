@@ -204,8 +204,8 @@
     wrong: []
 - question:
     text: '52 Relacja zaufania w uwierzytelnianiu w srodowisku sieciowym'
-    correct: ['jest wykorzystywana zarowno przez systemy Unix, jak i MS Windows','moze byc jednostronna lub dwustronna',]
-    wrong: ['nie jest przechodnia','jest realizacja koncepcji SSO',]
+    correct: ['jest wykorzystywana zarowno przez systemy Unix, jak i MS Windows','moze byc jednostronna lub dwustronna','nie jest przechodnia']
+    wrong: ['jest realizacja koncepcji SSO',]
 - question:
     text: '53 Wskaz prawidlowe stwierdzenia dotyczace metod uwierzytelniania systemow operacyjnych MS Windows w srodowisku sieciowym: '
     correct: ['Kerberos jest bezpieczniejszy niz LM i NTLM ','NTLM jest bezpieczniejszy niz LM ',]
