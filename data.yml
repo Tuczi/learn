@@ -696,8 +696,8 @@
     wrong: []
 - question:
     text: '175 Mozliwosci uwierzytelniania sie przy uzyciu SSH to '
-    correct: ['para login, haslo naszego konta na zdalnym hoscie ',]
-    wrong: ['certyfikaty SSL X.509','samo haslo naszego konta na zdalnym hoscie ','klucz publiczny, uzywany przy szyfrowaniu symetrycznym ','para klucz publiczny i klucz prywatny ',]
+    correct: ['para login, haslo naszego konta na zdalnym hoscie ','para klucz publiczny i klucz prywatny ',]
+    wrong: ['certyfikaty SSL X.509','samo haslo naszego konta na zdalnym hoscie ','klucz publiczny, uzywany przy szyfrowaniu symetrycznym ',]
 - question:
     text: '176 Mozliwosci uwierzytelniania sie przy uzyciu SSH to: '
     correct: ['trojka login, klucz publiczny i klucz prywatny ','para login, haslo naszego konta na zdalnym hoscie',]
