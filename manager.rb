@@ -1,12 +1,14 @@
 class Manager
-  attr_accessor :questions
+  attr_accessor :questions, :questions_asked_counter
 
   def initialize(data)
     @questions = data.map { |d| Question.new(d['question']) }
+    @questions_asked_counter = 0
   end
 
   def call
     until questions.empty?
+      @questions_asked_counter += 1
       system 'clear'
       question = next_question
       input = gets.chomp
@@ -16,6 +18,7 @@ class Manager
       puts 'Press any key'
       gets.chomp
     end
+    puts "Congrats! It took you #{questions_asked_counter} questions."
   end
 
   private
