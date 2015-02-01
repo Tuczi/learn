@@ -1,8 +1,7 @@
 #!/bin/ruby
 
-require "yaml"
-require "colorize"
-require "pry"
+require 'yaml'
+require 'colorize'
 
 require_relative 'question'
 require_relative 'manager'
