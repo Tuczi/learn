@@ -2,7 +2,6 @@
 
 require "yaml"
 require "colorize"
-require "pry"
 
 require_relative 'question'
 require_relative 'manager'
